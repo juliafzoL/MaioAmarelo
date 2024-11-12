@@ -9,7 +9,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
-
+      
       *{
         padding: 0;
         margin: 0;
@@ -33,8 +33,9 @@
         padding-left: 25px;
         color: #000000;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 38px;
         font-family: "Lora", serif;
+
         
          
     
@@ -45,7 +46,7 @@
         top: 0;
         left: 0;
         z-index: 1000;
-        background-color: #5e5a5a;
+       
         padding: 20px;
         position: fixed;
         width: 100%;
@@ -59,24 +60,60 @@
       
       section#inicio{
         height: 100vh;
-        background-color: lightcoral;
         padding: 20px;
       }
       section#meio{
-        background-color: #5e5a5a;
+       
         height:100vh ;
         padding:20px ;
-    
+
       }
       section#fim{
-        background-color: aquamarine;
+        
         height:100vh ;
         padding:20px ;
     
       }
+      body{
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 8%, rgb(66, 94, 146) 46%, rgb(67, 164, 175) 100%);
+}
+      footer{
+
+        display: flex;
+        justify-content:space-evenly ;
+        left: 0;
+        z-index: 1000;
+        background-color: #000000;
+        padding: 70px;
+        width: 100%;
+        color: aliceblue;
+        
+
+      
+        bottom: 0;
+      }
+      #texto{
+        padding: 80px;
+        font-size: 40px;
+      
       
     
+
+      }
+      .segundaParte{
+       /* padding: 300px;*/
+        padding-top: 110px;
+        padding-left: 600px;
       
+      
+      }
+      video{
+
+        size: 90px;
+      }
+
+     
     </style>
   </head>
   <body>
@@ -93,7 +130,7 @@
 
     </nav>
     <section id="inicio">
-        <h1>esse e o incio da pagina</h1>
+       <div id="texto">
         <p>Grave:</p>
         <p>Mais de 40 Mil Pessoas Morrem no Trânsito Todos os Anos - Será Que Você Está Contribuindo?</p>
         <img src="/B0B4E447-2D86-41D1-B6D7-4D09EF1254D1_page-0001.jpg">
@@ -103,7 +140,7 @@
     </section>
     <section id="meio">
       <div class="segundaParte">
-        <video src="/WhatsApp Video 2024-11-07 at 8.40.01 PM.mp4" width="320" height="240" controls>
+        <video src="/WhatsApp Video 2024-11-07 at 8.40.01 PM.mp4" width="800" height="500" controls>
             Seu browser não suporta esse video.
         </video>
     </div>
@@ -176,17 +213,29 @@
         </div>
       </div>
     </section>
+    
     <section id="fim">
         <h1>esse e o fim da pagina</h1>
+
+
+        
+    
     </section>
+   
 
-
-    <div class="fraseImpacto">
+  
         
 
         
 
+    <footer class="footer">
 
+      <div>
+        <h1>link dos cara la</h1>
+
+
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
